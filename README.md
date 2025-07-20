@@ -16,3 +16,6 @@ A static front-end clone of the YouTube homepage, built using only HTML and CSS.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
+
+## Credits
+Inspired by SuperSimpleDev's [HTML & CSS Full Course](https://www.youtube.com/watch?v=G3e-cpL7ofc) on YouTube.
