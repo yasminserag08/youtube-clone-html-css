@@ -14,6 +14,9 @@ A static front-end clone of the YouTube homepage, built using only HTML and CSS.
 - Clean, semantic HTML and modern CSS styling
 - No JavaScript or external libraries used
 
+## Live Demo
+Check out the live app here: [YouTube Clone Demo](https://yasminserag08.github.io/youtube-clone-html-css/)
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
