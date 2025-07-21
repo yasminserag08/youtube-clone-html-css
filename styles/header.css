@@ -1,16 +1,22 @@
 /* Flexbox styles for header layout */
 .header {
-  height: 55px;
+  height: 56px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.982);
+  position: fixed;
+  width: 100%;
 }
 
 .left-section {
   /* background-color: lightblue; */
   width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }
 
 .middle-section {
@@ -20,7 +26,7 @@
   max-width: 600px;
   margin-right: 40px;
   margin-left: 70px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .right-section {
@@ -29,7 +35,8 @@
   align-items: center;
   /* background-color: lightblue; */
   width: 200px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-right: 15px;
 }
 
 /* Icons */
@@ -41,8 +48,9 @@
 
 
 #hamburger-menu-icon {
+  margin-top: 15px;
   margin-left: 24px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 .youtube-logo {
@@ -54,16 +62,24 @@
 
 .profile-picture {
   width: 40px;
+  border-radius: 40px;
 }
 
 /* Button styles */
 .search-button {
-  width: 55px;
+  width: 64px;
   border: 1px solid rgb(181, 181, 181);
   border-left: none;
   margin-right: 15px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  padding-top: 5px;
+}
+
+.search-button:hover {
+  transition-property: background-color;
+  transition: 1ms;
+  background-color: rgb(230, 230, 230);
 }
 
 .voice-search-button {
@@ -71,6 +87,17 @@
   height: 40px;
   border-radius: 20px;
   border: none;
+  padding-top: 5px;
+}
+
+.voice-search-button:hover {
+  transition-property: background-color;
+  transition: 1ms;
+  background-color: rgb(218, 218, 218);
+}
+
+.voice-search-button:active {
+  background-color: rgb(200, 200, 200);
 }
 
 /* Search bar styles */
@@ -86,4 +113,5 @@
 .search-bar:focus {
   outline: none;
   border: 1px solid rgb(2, 108, 223);
+  box-shadow: inset 0 1px 2px #c7c7c7;
 }

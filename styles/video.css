@@ -2,7 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
-    row-gap: 40px;
+    row-gap: 35px;
+    margin-left: 75px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 56px;
+    background-color: rgb(246, 245, 245);
 }
 
 .thumbnail {
