@@ -1,19 +1,18 @@
 /* Flexbox styles for header layout */
 .header {
-  height: 56px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  top: 0;
   background-color: rgba(255, 255, 255, 0.982);
   position: fixed;
-  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .left-section {
-  /* background-color: lightblue; */
-  width: 200px;
   display: flex;
   justify-content: space-around;
   margin-bottom: 10px;
@@ -21,7 +20,6 @@
 
 .middle-section {
   display: flex;
-  /* background-color: lightpink; */
   flex: 1;
   max-width: 600px;
   margin-right: 40px;
@@ -33,7 +31,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color: lightblue; */
   width: 200px;
   margin-top: 5px;
   margin-right: 15px;
@@ -50,7 +47,7 @@
 #hamburger-menu-icon {
   margin-top: 15px;
   margin-left: 24px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .youtube-logo {
