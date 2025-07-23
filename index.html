@@ -17,21 +17,33 @@
     <header class="header">
       <div class="left-section">
         <img src="./assets/icons/hamburger-menu.svg" class="icon" id="hamburger-menu-icon">
-        <img src="./assets/icons/youtube-eg.png" class="youtube-logo">
+        <a href="https://www.youtube.com/"><img src="./assets/icons/youtube-eg.png" class="youtube-logo"></a>
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search">
         <button class="search-button">
           <img src="./assets/icons/search.svg" class="icon">
+          <div class="tooltip">Search</div>
         </button>
         <button class="voice-search-button">
           <img src="./assets/icons/voice-search-icon.svg" class="icon">
+          <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <img src="./assets/icons/upload.svg" class="icon" id="upload-icon">
-        <img src="./assets/icons/youtube-apps.svg" class="icon" id="youtube-apps-icon">
-        <img src="./assets/icons/notifications.svg" class="icon" id="notifications-icon">
+        <div class="icon-container">
+          <img src="./assets/icons/upload.svg" class="icon" id="upload-icon">
+          <div class="tooltip">Upload</div>
+        </div>
+        <div class="icon-container">
+          <img src="./assets/icons/youtube-apps.svg" class="icon" id="youtube-apps-icon">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="icon-container">
+          <img src="./assets/icons/notifications.svg" class="icon" id="notifications-icon">
+          <div class="tooltip">Notifications</div>
+          <div class="notification-count">3</div>
+        </div>
         <img src="./assets/channels/pfp.png" class="profile-picture" id="profile-picture">
       </div>
     </header>
