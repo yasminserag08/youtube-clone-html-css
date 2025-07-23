@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 16px;
-  row-gap: 35px;
+  row-gap: 30px;
   margin-left: 75px;
   padding-left: 20px;
   padding-top: 20px;
@@ -42,17 +42,19 @@
 }
 
 .channel-picture {
-  width: 50px;
+  width: 40px;
   border-radius: 30px;
 }
 
 .video-title {
   width: 215px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
 }
 
 .author, .stats {
-  color: gray;
+  color: rgb(106, 106, 106);
+  font-size: 12px;
   margin: 3px;
 }
+
